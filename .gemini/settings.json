@@ -1,0 +1,26 @@
+{
+    "theme": "Default",
+    "selectedAuthType": "oauth-personal",
+    "mcpServers": {
+        "context7": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@upstash/context7-mcp"
+            ]
+        },
+        "taskmaster-ai": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "--package=task-master-ai",
+                "task-master-ai"
+            ],
+            "env": {
+                "ANTHROPIC_API_KEY": "AIzaSyCHRr6uq4Q0rAKDoQ7VbYrpmf1-xehFqtk",
+                "OPENAI_API_KEY": "sk-proj-",
+                "GOOGLE_API_KEY": "sk-proj-"
+            }
+        }
+    }
+}
