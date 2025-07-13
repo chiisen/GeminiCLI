@@ -291,3 +291,5 @@ D:\github\chiisen\GeminiCLI (main*)               no sandbox (see /docs)        
 
 最後回報結果。
 
+![Gemini Todo List](./images/Gemini_todo_list.png)
+
