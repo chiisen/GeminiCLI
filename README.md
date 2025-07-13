@@ -77,8 +77,9 @@ npm install -g task-master-ai
 ```
 
 ## 操作說明
+
 ```bash
-gemini
+> gemini
 
  ███            █████████  ██████████ ██████   ██████ █████ ██████   █████ █████
 ░░░███         ███░░░░░███░░███░░░░░█░░██████ ██████ ░░███ ░░██████ ░░███ ░░███
@@ -99,7 +100,12 @@ Tips for getting started:
 ╭────────────────────────────────────╮
 │  > 幫我建立一個網頁版的 todo list  │
 ╰────────────────────────────────────╯
+```
 
+輸入 gemini 開啟 CLI 並輸入 PROMPT。
+
+
+```bash
 ✦ 好的，這是一個建立網頁版 todo list 的計畫：
 
    1. 建立專案目錄: 我會建立一個名為 todo-list-app 的新目錄來存放所有專案檔案。
@@ -110,7 +116,11 @@ Tips for getting started:
    5. 連結檔案: 我會將 style.css 和 script.js 檔案連結到 index.html，以確保樣式和功能都正確載入。
 
   完成後，你將擁有一個功能齊全的待辦事項清單網頁應用程式。
+```
 
+Gemini 會制訂一個計劃。
+
+```bash
   我現在就開始執行第一步，建立專案目錄。
  ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────╮
  │ ✔  Shell mkdir todo-list-app (Create a new directory named `todo-list-app` to house the project files.)  │
@@ -258,7 +268,11 @@ Tips for getting started:
  │    33 });                                                                                                        │
  ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ✦ 所有檔案都已建立完成！
+```
 
+確認建立檔案 style.css 和 script.js 與 index.html 檔案。
+
+```bash
   我為您建立了以下檔案：
 
    * todo-list-app/index.html
@@ -274,3 +288,6 @@ Using 1 GEMINI.md file and 2 MCP servers (ctrl+t to view)
 
 D:\github\chiisen\GeminiCLI (main*)               no sandbox (see /docs)                 gemini-2.5-pro (99% context left)
 ```
+
+最後回報結果。
+
