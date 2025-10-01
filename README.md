@@ -7,6 +7,7 @@
 ```bash
 # (npm 安裝沒問題，但是 npm 要升級
 # nvs 每個版本裝的套件都是獨立的，所以切到最低版本 18，要再安裝一次 gemini)
+# 目前用 Node.js 20
 npm install -g @google/gemini-cli
 gemini
 ```
@@ -292,4 +293,20 @@ D:\github\chiisen\GeminiCLI (main*)               no sandbox (see /docs)        
 最後回報結果。
 
 ![Gemini Todo List](./images/Gemini_todo_list.png)
+
+# MCP: chrome-devtools
+GitHub: https://github.com/ChromeDevTools/chrome-devtools-mcp
+
+是一個 Model-Context-Protocol (MCP) 伺服器，它允許 AI 程式設計助理（例如 Gemini, Claude, 或 Copilot）控制和檢查一個即時運行的 Chrome 瀏覽器。
+
+  主要功能包括：
+
+
+   * AI 瀏覽器控制: 讓 AI 能夠直接操作和自動化 Chrome 瀏覽器。
+  簡單來說，這個工具就像一個橋樑，讓 AI 程式碼助理能夠像開發者一樣使用 Chrome 開發者工具來進行網站的測試、除錯和分析。
+
+安裝 MCP: chrome-devtools 語法
+```bash
+gemini mcp add chrome-devtools npx chrome-devtools-mcp@latest
+```
 
